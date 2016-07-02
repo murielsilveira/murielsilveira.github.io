@@ -1,0 +1,19 @@
+{
+  "name": "murielsilveira.github.io",
+  "version": "1.0.0",
+  "description": "murielsilveira.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "cleancss --source-map -o css/normalize.min.css css/normalize.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murielsilveira/murielsilveira.github.io.git"
+  },
+  "author": "Muriel Silveira",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css": "^3.4.18"
+  }
+}
